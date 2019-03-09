@@ -1,0 +1,176 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: #F6F6F6;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.press-here {
+  text-shadow: 2px 2px 4px #999;
+  text-align: center;
+  /*margin: auto;*/
+  color: #333;
+}
+
+button {
+  margin-left: 5%;
+  margin-top: 16px;
+  color: rgb(98, 122, 165);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.navbar {
+  /*overflow: hidden;*/
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  position: fixed;
+  top: 0;
+  /*z-index: 1;*/
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  /*display: block;*/
+  color: white;
+  /*text-align: center;*/
+  padding: 0.8em;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.navbar a:hover {
+  background: rgb(221, 221, 221);
+  color: rgb(0, 0, 0);
+}
+
+.main {
+  display:flex;
+  flex-direction:column;
+  /*Can change the min-height*/
+  min-height:79vh;
+}
+#not-found {
+  margin: 7% auto 0 auto;
+}
+#test {
+  margin: 4em 0 0 2em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul a:link {
+  text-decoration: none;
+  color: rgb(98, 122, 165);
+}
+
+.footer {
+  height: 140px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(166, 193, 238);
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 2em;
+}
+
+.sitemap {
+  margin: 1em 0 0 1.7em;
+  color: white;
+  font-size: 1.2em;
+}
+/*=======Categories Page =====*/
+.fourofour {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  width: 50%;
+}
+/*=======Random Page====*/
+#r-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10%;
+  width: 15%;
+}
+
+#button {
+  padding: 10px;
+  padding-bottom: 2px;
+  background-color: rgb(132, 168, 137);
+  color: white;
+  text-shadow: none;
+  margin: auto;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 11px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0px;
+  font-size: 3em;
+  font-weight: normal;
+  font-family: 'Josefin Slab', cursive;
+  outline: 0px;
+}
+
+button:hover {
+  background-color: rgb(30, 70, 26);
+}
+
+@media only screen and (max-width : 980px) {
+  #r-photo {
+    display: block;
+    /*margin: 15% auto;*/
+    width: 30%;
+    margin: 15% auto 5% auto;
+  }
+  #not-found {
+    margin: 15% auto 0 auto;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width : 414px) {
+  #r-photo {
+    display: block;
+    margin: 25% auto 10% auto;
+    width: 40%;
+  }
+
+  #footer {
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(166, 193, 238);
+  }
+  #not-found {
+    margin: 20% auto 0 auto;
+    font-size: 1em;
+  }
+}
