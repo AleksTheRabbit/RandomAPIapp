@@ -58,7 +58,7 @@ button {
   display:flex;
   flex-direction:column;
   /*Can change the min-height*/
-  min-height:79vh;
+  min-height:90vh;
 }
 #not-found {
   margin: 7% auto 0 auto;
@@ -153,9 +153,17 @@ button:hover {
     margin: 15% auto 0 auto;
     font-size: 2em;
   }
+  .fourofour {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width : 414px) {
+  
   #r-photo {
     display: block;
     margin: 25% auto 10% auto;
@@ -164,7 +172,7 @@ button:hover {
 
   #footer {
     height: 140px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: rgb(166, 193, 238);
@@ -172,5 +180,8 @@ button:hover {
   #not-found {
     margin: 20% auto 0 auto;
     font-size: 1em;
+  }
+  .fourofour {
+    width: 100%;
   }
 }
